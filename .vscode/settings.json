@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "string_view": "cpp",
+        "lsyscache.h": "c",
+        "stdio.h": "c",
+        "typeinfo": "c",
+        "array.h": "c",
+        "tuple": "c",
+        "initializer_list": "cpp",
+        "utility": "c",
+        "curl.h": "c",
+        "parser.h": "c",
+        "xmlstring.h": "c",
+        "htup_details.h": "c",
+        "hash_map": "c",
+        "hash_set": "c"
+    }
+}

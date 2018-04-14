@@ -1,0 +1,17 @@
+services:
+  - postgresql
+  - docker
+addons:
+  postgresql: "9.5"
+
+sudo: required
+
+arch:
+ script:
+  - makepkg -fci
+  - sudo systemctl restart postgresql.service
+  - REGRESS_OPTS=--user=postgres make installcheck
+
+script:
+ - "travis_wait 30 sleep 1800 &"
+ - "curl -s https://raw.githubusercontent.com/fossasia/arch-travis/master/arch-travis.sh | bash"
