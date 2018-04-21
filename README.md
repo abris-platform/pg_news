@@ -1,4 +1,4 @@
-# pgnews
+# pg_news
 
 ```
 makepkg -fci

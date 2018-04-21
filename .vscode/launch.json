@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/pgnews.so",
+            "program": "${workspaceFolder}/pg_news.so",
             "miDebuggerServerAddress": "localhost:9091",
             "args": [],
             "stopAtEntry": false,

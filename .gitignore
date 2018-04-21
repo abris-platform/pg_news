@@ -1,6 +1,6 @@
-pgnews.o
-pgnews.so
-pgnews-0.0.1-1-x86_64.pkg.tar
+pg_news.o
+pg_news.so
+pg_news-0.0.1-1-x86_64.pkg.tar
 regression.diffs
 regression.out
 results/

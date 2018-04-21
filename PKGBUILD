@@ -1,4 +1,4 @@
-pkgname=pgnews
+pkgname=pg_news
 pkgver=0.0.1
 pkgrel=1
 pkgdesc="News"
